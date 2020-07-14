@@ -11,6 +11,6 @@ export default class ErrorRepository {
   }
 
   static translate(code) {
-    return this.getRepository().get(code) || 'Unknown error';    
+    return this.getRepository().get(code) || 'Unknown error';
   }
 }
